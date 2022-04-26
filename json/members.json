@@ -4,15 +4,15 @@
         "category": "Үзмэрч",
         "subCategory": "Зоос",
         "type": "Жинхэн гишүүн",
-        "img": "/img/member/1/portrait.jpg",
+        "img": "img/member/1/portrait.jpg",
         "nation": "Mongolia",
         "customers": 14120,
         "partRate": 35,
         "concern": 100,
         "position": "БНХАУ-ын Утга Урлагчдын холбооны Оддын чуулган ОУ-ын урлагийн компанийн ТВ, дуу дүрс шингээлтийн төвийн хэрэг мэдэгчдийн дарга",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt similique totam voluptatum, vero ducimus tenetur in magni deserunt ullam quaerat facere, veniam consequatur aperiam explicabo delectus expedita! Cum, asperiores.",
-        "certificate": ["/img/member/1/sertificates/s1.jpg", "/img/member/1/sertificates/s1.jpg"],
-        "qrCode": "/img/member/1/qr-code.png"
+        "certificate": ["img/member/1/sertificates/s1.jpg", "img/member/1/sertificates/s1.jpg"],
+        "qrCode": "img/member/1/qr-code.png"
     },
     {
         "lastName": "2",
@@ -20,15 +20,15 @@
         "category": "Үзмэрч",
         "subCategory": "Зоос",
         "type": "Жинхэн гишүүн",
-        "img": "/img/member/1/portrait.jpg",
+        "img": "img/member/1/portrait.jpg",
         "nation": "Mongolia",
         "customers": 14120,
         "partRate": 35,
         "concern": 100,
         "position": "БНХАУ-ын Утга Урлагчдын холбооны Оддын чуулган ОУ-ын урлагийн компанийн ТВ, дуу дүрс шингээлтийн төвийн хэрэг мэдэгчдийн дарга",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt similique totam voluptatum, vero ducimus tenetur in magni deserunt ullam quaerat facere, veniam consequatur aperiam explicabo delectus expedita! Cum, asperiores.",
-        "certificate": ["/img/member/1/sertificates/s1.jpg"],
-        "qrCode": "/img/member/1/qr-code.png"
+        "certificate": ["img/member/1/sertificates/s1.jpg"],
+        "qrCode": "img/member/1/qr-code.png"
     },
     {
         "lastName": "3",
@@ -36,15 +36,15 @@
         "category": "Гэгээнтэн",
         "subCategory": "Христ",
         "type": "Жинхэн гишүүн",
-        "img": "/img/member/1/portrait.jpg",
+        "img": "img/member/1/portrait.jpg",
         "nation": "Mongolia",
         "customers": 14120,
         "partRate": 35,
         "concern": 100,
         "position": "БНХАУ-ын Утга Урлагчдын холбооны Оддын чуулган ОУ-ын урлагийн компанийн ТВ, дуу дүрс шингээлтийн төвийн хэрэг мэдэгчдийн дарга",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt similique totam voluptatum, vero ducimus tenetur in magni deserunt ullam quaerat facere, veniam consequatur aperiam explicabo delectus expedita! Cum, asperiores.",
-        "certificate": ["/img/member/1/sertificates/s1.jpg"],
-        "qrCode": "/img/member/1/qr-code.png"
+        "certificate": ["img/member/1/sertificates/s1.jpg"],
+        "qrCode": "img/member/1/qr-code.png"
     },
     {
         "lastName": "4",
@@ -52,15 +52,15 @@
         "category": "Үзмэрч",
         "subCategory": "Зоос",
         "type": "Жинхэн гишүүн",
-        "img": "/img/member/1/portrait.jpg",
+        "img": "img/member/1/portrait.jpg",
         "nation": "Mongolia",
         "customers": 14120,
         "partRate": 35,
         "concern": 100,
         "position": "БНХАУ-ын Утга Урлагчдын холбооны Оддын чуулган ОУ-ын урлагийн компанийн ТВ, дуу дүрс шингээлтийн төвийн хэрэг мэдэгчдийн дарга",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt similique totam voluptatum, vero ducimus tenetur in magni deserunt ullam quaerat facere, veniam consequatur aperiam explicabo delectus expedita! Cum, asperiores.",
-        "certificate": ["/img/member/1/sertificates/s1.jpg"],
-        "qrCode": "/img/member/1/qr-code.png"
+        "certificate": ["img/member/1/sertificates/s1.jpg"],
+        "qrCode": "img/member/1/qr-code.png"
     },
     {
         "lastName": "5",
@@ -68,15 +68,15 @@
         "category": "Зайран",
         "subCategory": "Зоос",
         "type": "Жинхэн гишүүн",
-        "img": "/img/member/1/portrait.jpg",
+        "img": "img/member/1/portrait.jpg",
         "nation": "Mongolia",
         "customers": 14120,
         "partRate": 35,
         "concern": 100,
         "position": "БНХАУ-ын Утга Урлагчдын холбооны Оддын чуулган ОУ-ын урлагийн компанийн ТВ, дуу дүрс шингээлтийн төвийн хэрэг мэдэгчдийн дарга",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt similique totam voluptatum, vero ducimus tenetur in magni deserunt ullam quaerat facere, veniam consequatur aperiam explicabo delectus expedita! Cum, asperiores.",
-        "certificate": ["/img/member/1/sertificates/s1.jpg"],
-        "qrCode": "/img/member/1/qr-code.png"
+        "certificate": ["img/member/1/sertificates/s1.jpg"],
+        "qrCode": "img/member/1/qr-code.png"
     },
     {
         "lastName": "6",
@@ -84,15 +84,15 @@
         "category": "Лам",
         "subCategory": "Зоос",
         "type": "Жинхэн гишүүн",
-        "img": "/img/member/1/portrait.jpg",
+        "img": "img/member/1/portrait.jpg",
         "nation": "Mongolia",
         "customers": 14120,
         "partRate": 35,
         "concern": 100,
         "position": "БНХАУ-ын Утга Урлагчдын холбооны Оддын чуулган ОУ-ын урлагийн компанийн ТВ, дуу дүрс шингээлтийн төвийн хэрэг мэдэгчдийн дарга",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt similique totam voluptatum, vero ducimus tenetur in magni deserunt ullam quaerat facere, veniam consequatur aperiam explicabo delectus expedita! Cum, asperiores.",
-        "certificate": ["/img/member/1/sertificates/s1.jpg"],
-        "qrCode": "/img/member/1/qr-code.png"
+        "certificate": ["img/member/1/sertificates/s1.jpg"],
+        "qrCode": "img/member/1/qr-code.png"
     },
     {
         "lastName": "7",
@@ -100,15 +100,15 @@
         "category": "Хутагт",
         "subCategory": "Зоос",
         "type": "Жинхэн гишүүн",
-        "img": "/img/member/1/portrait.jpg",
+        "img": "img/member/1/portrait.jpg",
         "nation": "Mongolia",
         "customers": 14120,
         "partRate": 35,
         "concern": 100,
         "position": "БНХАУ-ын Утга Урлагчдын холбооны Оддын чуулган ОУ-ын урлагийн компанийн ТВ, дуу дүрс шингээлтийн төвийн хэрэг мэдэгчдийн дарга",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt similique totam voluptatum, vero ducimus tenetur in magni deserunt ullam quaerat facere, veniam consequatur aperiam explicabo delectus expedita! Cum, asperiores.",
-        "certificate": ["/img/member/1/sertificates/s1.jpg"],
-        "qrCode": "/img/member/1/qr-code.png"
+        "certificate": ["img/member/1/sertificates/s1.jpg"],
+        "qrCode": "img/member/1/qr-code.png"
     },
     {
         "lastName": "8",
@@ -116,15 +116,15 @@
         "category": "Удган",
         "subCategory": "Зоос",
         "type": "Жинхэн гишүүн",
-        "img": "/img/member/1/portrait.jpg",
+        "img": "img/member/1/portrait.jpg",
         "nation": "Mongolia",
         "customers": 14120,
         "partRate": 35,
         "concern": 100,
         "position": "БНХАУ-ын Утга Урлагчдын холбооны Оддын чуулган ОУ-ын урлагийн компанийн ТВ, дуу дүрс шингээлтийн төвийн хэрэг мэдэгчдийн дарга",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt similique totam voluptatum, vero ducimus tenetur in magni deserunt ullam quaerat facere, veniam consequatur aperiam explicabo delectus expedita! Cum, asperiores.",
-        "certificate": ["/img/member/1/sertificates/s1.jpg"],
-        "qrCode": "/img/member/1/qr-code.png"
+        "certificate": ["img/member/1/sertificates/s1.jpg"],
+        "qrCode": "img/member/1/qr-code.png"
     },
     {
         "lastName": "9",
@@ -132,15 +132,15 @@
         "category": "Үзмэрч",
         "subCategory": "Зоос",
         "type": "Жинхэн гишүүн",
-        "img": "/img/member/1/portrait.jpg",
+        "img": "img/member/1/portrait.jpg",
         "nation": "Mongolia",
         "customers": 14120,
         "partRate": 35,
         "concern": 100,
         "position": "БНХАУ-ын Утга Урлагчдын холбооны Оддын чуулган ОУ-ын урлагийн компанийн ТВ, дуу дүрс шингээлтийн төвийн хэрэг мэдэгчдийн дарга",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt similique totam voluptatum, vero ducimus tenetur in magni deserunt ullam quaerat facere, veniam consequatur aperiam explicabo delectus expedita! Cum, asperiores.",
-        "certificate": ["/img/member/1/sertificates/s1.jpg"],
-        "qrCode": "/img/member/1/qr-code.png"
+        "certificate": ["img/member/1/sertificates/s1.jpg"],
+        "qrCode": "img/member/1/qr-code.png"
     },
     {
         "lastName": "10",
@@ -148,14 +148,14 @@
         "category": "Үзмэрч",
         "subCategory": "Зоос",
         "type": "Жинхэн гишүүн",
-        "img": "/img/member/1/portrait.jpg",
+        "img": "img/member/1/portrait.jpg",
         "nation": "Mongolia",
         "customers": 14120,
         "partRate": 35,
         "concern": 100,
         "position": "БНХАУ-ын Утга Урлагчдын холбооны Оддын чуулган ОУ-ын урлагийн компанийн ТВ, дуу дүрс шингээлтийн төвийн хэрэг мэдэгчдийн дарга",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt similique totam voluptatum, vero ducimus tenetur in magni deserunt ullam quaerat facere, veniam consequatur aperiam explicabo delectus expedita! Cum, asperiores.",
-        "certificate": ["/img/member/1/sertificates/s1.jpg"],
-        "qrCode": "/img/member/1/qr-code.png"
+        "certificate": ["img/member/1/sertificates/s1.jpg"],
+        "qrCode": "img/member/1/qr-code.png"
     }
 ]

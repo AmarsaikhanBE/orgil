@@ -4,7 +4,7 @@ navCont.className = 'container';
 const logoBox = document.createElement('div');
 logoBox.className = 'logo';
 const logoImg = document.createElement('img');
-logoImg.src = '/img/md-logo.png';
+logoImg.src = 'img/md-logo.png';
 logoBox.append(logoImg);
 const heading4 = document.createElement('h4');
 heading4.innerHTML = 'ОЮУН УХААНЫ<br>ХӨГЖЛИЙН АКАДЕМИ';
