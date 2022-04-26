@@ -1,0 +1,61 @@
+nav {
+    background-color: rgb(0, 35, 55);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav>.container,
+nav .logo,
+nav .menu {
+    display: flex;
+    align-items: center;
+}
+
+nav>.container {
+    justify-content: space-between;
+}
+
+nav .logo,
+nav .menu {
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+nav .logo {
+    cursor: pointer;
+}
+
+nav .logo img {
+    width: 2rem;
+    height: 2rem;
+}
+
+nav .menu li {
+    cursor: pointer;
+    padding: 1rem;
+    height: 4rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight: 200;
+    position: relative;
+}
+
+nav .menu li:hover::after,
+nav .menu li.active::after {
+    content: "";
+    position: absolute;
+    justify-self: center;
+    width: 100%;
+    height: .2rem;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: radial-gradient(rgb(189, 255, 255) 10%, cyan 30%, rgb(0, 35, 55) 80%); */
+    background: radial-gradient(rgb(165, 220, 255) 10%, rgb(0, 157, 255) 50%, rgb(0, 35, 55) 80%);
+}
+
+nav .menu li:last-child:hover::after {
+    height: 0;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Development</title>
+    <link rel="icon" href="img/md-logo.png" type="image/png" sizes="32x32">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/70ba6e6850.js" crossorigin="anonymous"></script>
+    <!-- CSS links -->
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/home-page.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/service-page.css">
+    <link rel="stylesheet" href="style/learn-page.css">
+    <link rel="stylesheet" href="style/about-page.css">
+    <link rel="stylesheet" href="style/contact-page.css">
+    <link rel="stylesheet" href="style/about-member.css">
+</head>
+
+<body onload="callMems(data)">
+    <script src="js/header.js"></script>
+    <main>
+        <div class="container">
+            <div class="title">
+                <h1>Жинхэн гишүүд</h1>
+            </div>
+            <div class="content-container">
+                <div class="home-page">
+                    <div class="side-bar">
+                        <div class="search-bar">
+                            <input type="text" id="searchBar" placeholder="Гишүүн хайх">
+                            <button id="searchBtn">☌</button>
+                        </div>
+                        <ul class="category">
+                            <li class="active">Бүгдийг арилгах</li>
+                            <li>
+                                <ul class="sub-category">
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main-body">
+                        <div class="items"></div>
+                        <div class="pagination">
+                            <button class="arrow left-arrow">«</button>
+                            <div class="index">pagination</div>
+                            <button class="arrow right-arrow">»</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/js/main.js"></script>
+    </main>
+    <script src="js/footer.js"></script>
+    <!-- Google map -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCH57zUqXS6FkPzslrnUlPkJdpy0HINNRE&callback=initMap"></script>
+</body>
+
+</html>

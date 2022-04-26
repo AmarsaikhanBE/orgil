@@ -1,0 +1,41 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 200;
+}
+
+.header-background {
+    position: fixed;
+    top: 4rem;
+    z-index: -1;
+    height: 20rem;
+    width: 100%;
+    background-image: url(/img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}

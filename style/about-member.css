@@ -1,0 +1,40 @@
+.about-member {
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 50rem 15rem;
+    gap: 2rem;
+}
+
+.table {
+    border-bottom: .05rem solid rgb(0, 157, 255);
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.table h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.about-member>div>h3 {
+    font-weight: 500;
+    margin: 2rem 0;
+    line-height: 1.5;
+}
+
+.req {
+    list-style: disc;
+    margin-left: 1rem;
+}
+
+.req li {
+    font-weight: 100;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.about-member img {
+    width: 100%;
+}

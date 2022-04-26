@@ -1,0 +1,346 @@
+main .title {
+    margin: 4rem 0 2rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+main .title h1 {
+    color: #fff;
+    font-weight: 200;
+}
+
+main .title button {
+    color: #fff;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+main .content-container {
+    background-color: rgb(240, 240, 240);
+    border-radius: .25rem;
+}
+
+main .home-page,
+main .profile-page {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 16.25rem 52.75rem;
+    gap: 2rem;
+}
+
+
+/* home page */
+
+.home-page .items {
+    display: grid;
+    grid-template-columns: repeat(3, 16.25rem);
+    gap: 2rem;
+}
+
+.home-page .item {
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    border-radius: .4rem;
+    box-shadow: .2rem .2rem .2rem rgb(153, 153, 153, .5);
+    cursor: pointer;
+    display: none;
+}
+
+.home-page .item.active {
+    display: block;
+}
+
+.home-page .item:hover {
+    box-shadow: 0 0 .2rem rgb(0, 157, 255);
+}
+
+.home-page .item .portrait {
+    width: 15.5rem;
+    height: 15.5rem;
+    margin: .375rem;
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+}
+
+.home-page .item h6 {
+    width: fit-content;
+    padding: .5rem 1rem;
+    margin: 1rem auto;
+    border: none;
+    border-radius: .5rem;
+    background-color: rgb(0, 157, 255);
+    color: #fff;
+}
+
+.home-page .item .icon,
+.profile-page .portrait .icon {
+    position: absolute;
+    width: 100%;
+    padding: 0 1.5rem;
+    top: 12.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-page .icon-con,
+.profile-page .icon-con {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1.5px solid red;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.home-page .icon-con i,
+.profile-page .icon-con i {
+    color: rgb(0, 157, 255);
+}
+
+.home-page .flag,
+.profile-page .flag {
+    font-size: 2rem;
+}
+
+.home-page .pagination {
+    margin: 2rem;
+}
+
+.home-page .pagination,
+.home-page .pagination .index {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    flex-wrap: nowrap;
+}
+
+.home-page .pagination button {
+    cursor: pointer;
+}
+
+.home-page .pagination button:hover,
+.home-page .pagination .index button.active,
+.home-page .pagination .index button:hover {
+    color: rgb(0, 157, 255);
+    border-color: rgb(0, 157, 255);
+}
+
+.home-page .pagination .index button {
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #999;
+    position: relative;
+    display: block;
+}
+
+.home-page .pagination .index button.first::after,
+.home-page .pagination .index button.last::before {
+    content: "";
+}
+
+.home-page .arrow {
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    border: none;
+    background: none;
+}
+
+
+/* Side-bar */
+
+.home-page .search-bar,
+.home-page .category {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    border: .05rem solid rgb(0, 157, 255);
+}
+
+.home-page .search-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: .5rem;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.home-page #searchBtn {
+    border: none;
+    background: none;
+    transform: rotate(105deg);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.home-page #searchBtn:hover {
+    color: rgb(0, 157, 255);
+}
+
+.home-page #searchBar {
+    height: 3rem;
+    font-size: 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+.search-alert {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    background-color: red;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: .4rem;
+    font-size: 1.5rem;
+    animation: slideDown 5s ease-in-out;
+}
+
+.home-page .category li {
+    cursor: pointer;
+    line-height: 2rem;
+    position: relative;
+}
+
+.home-page .category>li:nth-child(2) {
+    cursor: default;
+    padding-left: 1.5rem;
+}
+
+.home-page .category li::before {
+    content: "❏";
+    margin-right: .5rem;
+    color: rgb(0, 157, 255);
+}
+
+.home-page .category li.active::after {
+    content: "✓";
+    position: absolute;
+    left: 1px;
+    top: -3px;
+    color: rgb(0, 157, 255);
+}
+
+.home-page .category>li:nth-child(2)::before {
+    content: none;
+}
+
+
+/* profile page */
+
+.profile-page .portrait {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.profile-page .portrait img {
+    border-radius: .4rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.profile-page .name-card {
+    background-color: rgb(0, 35, 55);
+    border-radius: .4rem;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 4.4rem;
+}
+
+.profile-page .name-card p {
+    color: rgb(0, 157, 255);
+}
+
+.profile-page .name-card h6 {
+    width: fit-content;
+    margin: 1rem auto 0 auto;
+    background-color: rgb(0, 70, 115);
+    padding: 1rem;
+    border-radius: .4rem;
+    font-size: 1rem;
+}
+
+.profile-page .qr-code {
+    width: 100%;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: .4rem;
+    margin-top: 1rem;
+}
+
+.profile-page .main .counter {
+    background-color: rgb(0, 35, 55);
+    border-radius: .4rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.profile-page .main .counter h1 {
+    font-size: 2rem;
+    margin-top: .5rem;
+}
+
+.profile-page .main .presentation {
+    border-radius: .4rem;
+    background-color: #fff;
+    border: 1px solid rgb(0, 157, 255);
+    padding: 1rem;
+    min-height: 44rem;
+}
+
+.profile-page .main .presentation h1 {
+    margin-bottom: .5rem;
+}
+
+.profile-page .main .presentation p {
+    line-height: 1.8rem;
+}
+
+.profile-page .main .presentation .divider {
+    height: .1rem;
+    background-color: rgb(0, 157, 255);
+    margin: 2rem 0;
+}
+
+.profile-page .main .presentation .certificates {
+    display: flex;
+    gap: .5rem;
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile-page .main .presentation .certificates img {
+    max-height: 20rem;
+    max-width: 25rem;
+}
