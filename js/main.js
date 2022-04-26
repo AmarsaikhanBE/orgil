@@ -215,4 +215,3 @@ searchBtn.addEventListener('click', (event) => {
     };
 });
 searchBar.addEventListener('keypress', event => { if (event.key == 'Enter') { searchBtn.click() }; });
-callMems(data);
