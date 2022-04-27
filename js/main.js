@@ -194,6 +194,7 @@ searchBtn.addEventListener('click', (event) => {
                 // change title
                 document.querySelector('main .title h1').innerHTML = 'Хайлт';
                 // create back button
+                if (document.querySelector('main .title button') != undefined) { document.querySelector('main .title button').style.display = 'none'; };
                 const backBtn = document.createElement('button');
                 backBtn.textContent = '⟵';
                 document.querySelector('main .title').prepend(backBtn);
@@ -216,4 +217,3 @@ searchBtn.addEventListener('click', (event) => {
     };
 });
 searchBar.addEventListener('keypress', event => { if (event.key == 'Enter') { searchBtn.click() }; });
-document.body.onload = callMems(data);
