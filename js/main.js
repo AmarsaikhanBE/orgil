@@ -3,9 +3,9 @@ fetch('json/members.json')
     .then(res => res.json())
     .then(members => {
         data = members;
+        callMems(data);
         return data;
     });
-callMems(data);
 // pagination
 let filterBy = 6;
 let btnIndex = 0;
