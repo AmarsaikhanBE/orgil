@@ -216,3 +216,4 @@ searchBtn.addEventListener('click', (event) => {
     };
 });
 searchBar.addEventListener('keypress', event => { if (event.key == 'Enter') { searchBtn.click() }; });
+document.body.onload = callMems(data);
