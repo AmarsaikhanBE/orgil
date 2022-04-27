@@ -5,7 +5,6 @@ fetch('json/members.json')
         data = members;
         return data;
     });
-callMems(data);
 // pagination
 let filterBy = 6;
 let btnIndex = 0;
@@ -216,3 +215,4 @@ searchBtn.addEventListener('click', (event) => {
     };
 });
 searchBar.addEventListener('keypress', event => { if (event.key == 'Enter') { searchBtn.click() }; });
+callMems(data);
