@@ -5,6 +5,7 @@ fetch('json/members.json')
         data = members;
         return data;
     });
+callMems(data);
 // pagination
 let filterBy = 6;
 let btnIndex = 0;
