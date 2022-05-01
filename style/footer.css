@@ -6,15 +6,15 @@ footer {
 
 .about-section {
     display: grid;
-    grid-template-columns: repeat(4, 18rem);
-    gap: .25rem;
+    grid-template-columns: repeat(3, 24rem);
+    gap: 1rem;
 }
 
 .about-section>div:first-child {
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 3;
     padding-left: 3rem;
-    padding-right: 15rem;
+    padding-right: 15rem; */
     text-align: center;
 }
 
